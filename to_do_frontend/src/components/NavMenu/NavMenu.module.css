@@ -1,0 +1,18 @@
+.navMenu {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.navMenu button {
+    width: 100px;
+    padding: 11px;
+    background-color: #393942;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+.navMenu button:hover {
+    background-color: #656567;
+}

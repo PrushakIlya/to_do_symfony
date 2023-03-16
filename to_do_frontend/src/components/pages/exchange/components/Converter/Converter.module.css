@@ -1,0 +1,74 @@
+.converterWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    padding: 30px 0;
+    box-sizing: border-box;
+    background-color: #393942;
+    border-radius: 7px;
+}
+
+.converterItem {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+.converterItem span {
+    margin-right: 15px;
+    color: #FFF;
+}
+
+.addCurrency {
+    display: flex;
+    align-items: center;
+    color: #898989;
+    transition: all .3s;
+    align-self: flex-end;
+    margin-right: 25px;
+}
+
+.addCurrency:hover {
+    color: rgb(244 114 182);
+}
+
+.addCurrency:hover > * {
+    color: rgb(244 114 182);
+}
+
+.addCurrencyIcon{
+    width: 24px;
+    height: 24px;
+    color: #898989;
+    transition: all .3s;
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+
+.select1 {
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.selectList1 {
+    background-color: transparent;
+}
+
+.close {
+    width: 24px;
+    height: 24px;
+    color: #585353;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.close:hover {
+    color: #898989;
+}

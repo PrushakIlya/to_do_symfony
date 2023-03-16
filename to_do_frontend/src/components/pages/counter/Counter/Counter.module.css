@@ -1,0 +1,49 @@
+.wrapper {
+    max-width: 350px;
+    text-align: center;
+    border: 1px solid #393942;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+h2 {
+    color: #898989;
+}
+
+.wrapper button {
+    background: #73dd73;
+    border: 0;
+    outline: none;
+    border-radius: 6px;
+    width: 80px;
+    height: 40px;
+    color: #FFF;
+    font-size: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+button + button {
+    margin-left: 25px;
+}
+
+.wrapper button:hover {
+    background: #414040;
+}
+
+.wrapper .minus {
+    background: #f14646;
+}
+
+
+.wrapper .reset {
+    background: #767776;
+}
