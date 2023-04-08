@@ -1,0 +1,13 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+
+readNote:
+    path: /api/read_note
+    controller: App\Controller\NoteController::read
+
+creatNote:
+    path: /api/creat_note
+    controller: App\Controller\NoteController::create

@@ -2,12 +2,10 @@ services:
   to_do_frontend:
     container_name: to_do_frontend
     build:
-      context: ./../docker/node
+      context: ../docker/node
       dockerfile: Dockerfile
     volumes:
       - ../to_do_frontend:/var/www/to_do_frontend
-    ports:
-      - ${NODE_PORT}:5173
   to_do_backend:
     container_name: to_do_backend
     build:
@@ -28,12 +26,15 @@ services:
       - ./:/var/www/to_do_backend
       - ../to_do_frontend:/var/www/to_do_frontend
     ports:
-      - ${NGINX_PORT}:80
-  to_do_mysql:
-    container_name: to_do_mysql
-    image: mysql:8.0.31
+      - ${NGINX_PORT:-80}:80
+  postgres:
+    container_name: postgres
+    image: postgres:alpine3.17
+    restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
-      MYSQL_DATABASE: ${DB_DATABASE}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-root}
+      POSTGRES_DB: ${POSTGRES_DB:-root}
+    volumes:
+      - ./database_data:/var/lib/postgresql/data:rw
     ports:
-      - ${DB_PORT}:3306
+      - ${DB_PORT:-5432}:5432
