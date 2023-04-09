@@ -2,7 +2,8 @@
 
 namespace App\Model;
 
-class NoteResponse {
+class NoteResponse
+{
     /**
      * @var NoteListItem[]
      */

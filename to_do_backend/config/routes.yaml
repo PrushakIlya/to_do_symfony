@@ -5,9 +5,11 @@ controllers:
     type: attribute
 
 readNote:
-    path: /api/read_note
+    path: /api/v1/read_note
+    methods: GET
     controller: App\Controller\NoteController::read
 
 creatNote:
-    path: /api/creat_note
+    path: /api/v1/creat_note
+    methods: POST
     controller: App\Controller\NoteController::create

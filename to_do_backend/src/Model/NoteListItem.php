@@ -2,22 +2,21 @@
 
 namespace App\Model;
 
-use DateTimeImmutable;
-
-class NoteListItem {
+class NoteListItem
+{
     private int $id;
     private string $title;
-    private DateTimeImmutable $createdAt;
-    private ?DateTimeImmutable $updatedAt = null;
-    private ?DateTimeImmutable $deletedAt = null;
+    private \DateTimeImmutable $createdAt;
+    private ?\DateTimeImmutable $updatedAt = null;
+    private ?\DateTimeImmutable $deletedAt = null;
 
     public function __construct(
         int $id,
         string $title,
-        DateTimeImmutable $createdAt,
-        ?DateTimeImmutable $updatedAt,
-        ?DateTimeImmutable $deletedAt)
-    {
+        \DateTimeImmutable $createdAt,
+        ?\DateTimeImmutable $updatedAt = null,
+        ?\DateTimeImmutable $deletedAt = null
+    ) {
         $this->id = $id;
         $this->title = $title;
         $this->createdAt = $createdAt;
@@ -35,19 +34,18 @@ class NoteListItem {
         return $this->title;
     }
 
-    public function getCreatedAt(): DateTimeImmutable
+    public function getCreatedAt(): \DateTimeImmutable
     {
         return $this->createdAt;
     }
 
-    public function getUpdatedAt(): ?DateTimeImmutable
+    public function getUpdatedAt(): ?\DateTimeImmutable
     {
         return $this->updatedAt;
     }
 
-    public function getDeletedAt(): ?DateTimeImmutable
+    public function getDeletedAt(): ?\DateTimeImmutable
     {
         return $this->deletedAt;
     }
-
 }

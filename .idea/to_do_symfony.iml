@@ -6,7 +6,6 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/to_do_backend/src" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/to_do_backend/tests" isTestSource="true" packagePrefix="App\Tests\" />
-      <sourceFolder url="file://$MODULE_DIR$/to_do_backend/tests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/to_do_backend/spec" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/options-resolver" />
@@ -57,11 +56,7 @@
       <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/doctrine/cache" />
       <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/maker-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/stopwatch" />
-      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/qossmic/deptrac-shim" />
       <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/phpstan/phpstan" />
-      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/monolog/monolog" />
-      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/monolog-bundle" />
-      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/monolog-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/doctrine/migrations" />
       <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/doctrine/common" />
       <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/doctrine/doctrine-migrations-bundle" />
@@ -80,6 +75,46 @@
       <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/property-access" />
       <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/property-info" />
       <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/masterminds/html5" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/browser-kit" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/dom-crawler" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/phpunit-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/bin/.phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/nelmio/api-doc-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/swagger-api/swagger-ui" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/asset" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/twig-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/twig-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/symfony/ux-twig-component" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/twig/extra-bundle" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/to_do_backend/vendor/zircote/swagger-php" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
