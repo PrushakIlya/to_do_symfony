@@ -8,7 +8,7 @@
 /var/
 /vendor/
 /cov/
-/database_data/
+/database_data
 ###< symfony/framework-bundle ###
 
 ###> friendsofphp/php-cs-fixer ###
