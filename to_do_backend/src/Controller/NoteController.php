@@ -2,12 +2,10 @@
 
 namespace App\Controller;
 
-use App\Model\NoteResponse;
 use App\Service\NoteService;
-use Nelmio\ApiDocBundle\Annotation\Model;
-use OpenApi\Annotations as OA;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Request;
 
 class NoteController extends AbstractController
 {
@@ -18,5 +16,19 @@ class NoteController extends AbstractController
     public function read(): JsonResponse
     {
         return $this->json($this->noteService->getNotes());
+    }
+
+    public function create(Request $request): JsonResponse
+    {
+        $this->noteService->createNote($request);
+
+        return $this->json('success');
+    }
+
+    public function update(Request $request): JsonResponse
+    {
+        $this->noteService->updateNote($request);
+
+        return $this->json('success');
     }
 }

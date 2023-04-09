@@ -9,12 +9,15 @@ use Doctrine\ORM\Mapping as ORM;
 class Note
 {
     #[ORM\Id]
-    #[ORM\GeneratedValue(strategy: 'AUTO')]
+    #[ORM\GeneratedValue(strategy: 'IDENTITY')]
     #[ORM\Column(unique: true)]
-    private ?int $id = null;
+    private int $id;
 
     #[ORM\Column(length: 255)]
     private ?string $title = null;
+
+    #[ORM\Column]
+    private bool $is_completed = false;
 
     #[ORM\Column]
     private ?\DateTimeImmutable $created_at = null;
@@ -81,6 +84,18 @@ class Note
     public function setDeletedAt(\DateTimeImmutable $deleted_at): self
     {
         $this->deleted_at = $deleted_at;
+
+        return $this;
+    }
+
+    public function getCompleted(): bool
+    {
+        return $this->is_completed;
+    }
+
+    public function setCompleted(bool $is_completed): self
+    {
+        $this->is_completed = $is_completed;
 
         return $this;
     }

@@ -10,6 +10,11 @@ readNote:
     controller: App\Controller\NoteController::read
 
 creatNote:
-    path: /api/v1/creat_note
+    path: /api/v1/create_note
     methods: POST
     controller: App\Controller\NoteController::create
+
+updateNote:
+    path: /api/v1/update_note
+    methods: POST
+    controller: App\Controller\NoteController::update
